@@ -120,3 +120,18 @@ If you do not recommend any of the models, please justify your reasoning.
     * Given the high recall and acceptable precision, the logistic regression model is recommended for use. It provides a good balance and high performance for the given task, making it suitable for practical implementation in loan risk assessment.
      
 * For additional improvements, I would consider exploring advanced models or techniques to enhance precision further, especially if the cost of false positives is significant.
+
+## Justification for Recommendation
+
+The logistic regression model is recommended for use by the company due to the following reasons:
+
+- **High Accuracy**: With an overall accuracy of 99%, the model effectively classifies both healthy and high-risk loans, indicating it performs well across the entire dataset.
+
+- **Effective Identification of High-Risk Loans**: The model shows a high recall score of 0.94 for high-risk loans. This means the model correctly identifies 94% of the high-risk loans, which is crucial for minimizing financial risk and making informed lending decisions.
+
+- **Balanced Precision**: While the precision for high-risk loans is 0.84, it indicates that the model correctly identifies 84% of the predicted high-risk loans. This balance ensures that the model not only detects most of the high-risk loans but also minimizes false positives.
+
+- **Robust Performance**: The high F1-score of 0.89 for high-risk loans reflects a good balance between precision and recall, confirming that the model is reliable for distinguishing between high-risk and healthy loans.
+
+Given these results, the logistic regression model provides a robust and reliable tool for classifying loan risk, helping the company effectively manage and mitigate financial risks associated with lending.
+
